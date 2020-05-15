@@ -32,12 +32,7 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  storage_room = [
-     array1 = ["Grapefruit", "Pineapple", "Oranges", "Watermelon",
-  "Eggplant"],
-     array2 = ["Strawberries", "Potatoes","Grapes", "Avocadoes","Asparagus"]
-    ]
-   return array1.sort, array2.sort
+   return CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort
 end
 
 def matrix_lookup(matrix, row, column)
